@@ -3,3 +3,10 @@
 *.md filter=lfs diff=lfs merge=lfs -text
 *.png filter=lfs diff=lfs merge=lfs -text
 *.joblib filter=lfs diff=lfs merge=lfs -text
+*.png !text !filter !merge !diff
+*.ipynb !text !filter !merge !diff
+*.md !text !filter !merge !diff
+train_simple_data.npz !text !filter !merge !diff
+test_simple_data.npz !text !filter !merge !diff
+*.zip filter=lfs diff=lfs merge=lfs -text
+*.z01 filter=lfs diff=lfs merge=lfs -text
