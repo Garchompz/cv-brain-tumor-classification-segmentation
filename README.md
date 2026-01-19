@@ -6,7 +6,7 @@ Created by Group 17 Computer Vision class LE01:
 2. Theodore Zachary - 2702244100
 3. Albertus Edbert Chandrajaya - 2702345440
 
-This project covers brain tumor classification utilizing classical machine learning, random forest, to segment parts of an MRI scan which is indicated as a tumor. The output of the model is a binary mask of the tumor area (white) and non tumor area (black). This repository also covers the report, dataset, app code, and experiment notebook to generate the model.
+This project covers brain tumor segmentation utilizing classical machine learning, random forest, to segment parts of an MRI scan which is indicated as a tumor. The output of the model is a binary mask of the tumor area (white) and non tumor area (black). This repository also covers the report, dataset, app code, and experiment notebook to generate the model.
 ## Experiment results
 The model achieved the following metrics on evaluation: 
 - Accuracy: 0.9514
