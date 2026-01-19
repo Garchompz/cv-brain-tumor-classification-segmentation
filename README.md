@@ -1,7 +1,7 @@
 # BrainSight: Efficient Brain Tumor Segmentation Utilizing Computer Vision
 This final project is part of the Computer Vision (COMP7116001) streaming course during the 2025/2026 odd semester period in BINUS University.
 
-Created by Group 12 Computer Vision class LE01:
+Created by Group 17 Computer Vision class LE01:
 1. Kent Amadeo Timotheus - 2702227025
 2. Theodore Zachary - 2702244100
 3. Albertus Edbert Chandrajaya - 2702345440
