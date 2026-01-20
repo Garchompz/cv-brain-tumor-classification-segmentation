@@ -11,3 +11,19 @@ This project covers brain tumor segmentation utilizing classical machine learnin
 The model achieved the following metrics on evaluation: 
 - Accuracy: 0.9514
 - Dice/F1 Score: 0.9527
+## How to run the application
+### 1. Extract the model from the zip files
+The model is compressed into two separate zip files, if extracted correctly, it should have create a single joblib file. Here's an example of how to extract it (not associated with this repository): [Extracting Multi-Part Zip Files](https://knowledge.navvis.com/docs/how-to-extract-multi-part-zip-files-with-z01-extension)
+### 2. Run backend (Python)
+Start the flask app, after ensuring that the model is in the right directory according to the code.
+```python
+# run backend (adjust path if working dir is backend)
+python backend/app.py
+```
+### 3. Run frontend (Vite + React)
+Install Node dependencies and start the dev server:
+```cmd
+cd app\frontend\main-app
+npm install
+npm run dev
+```
